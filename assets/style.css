@@ -60,6 +60,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .menu-container {
@@ -85,26 +86,28 @@ h1 {
     top: 0;
     background-color: white;
     z-index: 10;
-    padding: 10px 0;
+    padding: 10px 5px;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.category-bar a {
+.category-bar button {
+    border: 1px solid black;
     text-decoration: none;
     color: #333;
     font-weight: 500;
     padding: 10px 20px;
     white-space: nowrap;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: #f9f9f9;
     margin-right: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.6s;
 }
 
-.category-bar a:hover {
+.category-bar button:hover {
     background-color: #f39c12;
     color: white;
+    border: 1px white;
 }
 
 /* Category Sections */
@@ -163,6 +166,33 @@ h1 {
     font-size: 1rem;
 }
 
+.menu-item .addicon{
+    align-self: flex-start;
+    height: 30px;
+    width: 30px;
+}
+
+.menu-item .addbtn{
+    border: none;
+    padding: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.menu-item .addbtn img{
+    border-radius: 50%;
+    /* border: 2px solid #; */
+}
+.menu-item .addbtn img:active{
+    border: 3px solid #f39c12;
+}
+
+#cart input{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid;
+    height: 30px;
+    align-self: center;
+}
 /* Responsive Adjustments */
 @media (max-width: 480px) {
     .menu-item img {
@@ -177,4 +207,20 @@ h1 {
     .menu-item-price {
         font-size: 0.9rem;
     }
+}
+
+/* cart */
+
+div#go-to-cart{
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: #f39c12;
+}
+
+div#go-to-cart img{
+    height: 30px;
+    padding: 10px;
 }

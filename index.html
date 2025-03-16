@@ -6,6 +6,12 @@
     <title>Café Menu</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
+
+    <script src="assets/script.js"></script>
+    <script src="dataset.js"></script>
+    <script>
+
+    </script>
 </head>
 <body>
 
@@ -14,1008 +20,138 @@
 
         <!-- Sticky Category Navigation Bar -->
         <div class="category-bar">
-            <a href="#Coffee">Coffee</a>
-            <a href="#Iced">Iced</a>
-            <a href="#SpMentions">Sp Mentions</a>
-            <a href="#Tea">Tea</a>
-            <a href="#Shakes">Shakes</a>
-            <a href="#Mojitos">Mojitos</a>
-            <a href="#staters">Staters</a>
-            <a href="#Breads">Breads</a>
-            <a href="#Burgers">Burgers</a>
-            <a href="#Sandwiches">Sandwiches</a>
-            <a href="#Wraps">Wraps</a>
-            <a href="#Pizza">Pizza</a>
-            <a href="#Deserts">Deserts</a>
-            <a href="#Pastry">Pastry</a>    
-            <a href="#Snacks">Snacks</a>    
-            <a href="#Pasta">Pasta</a>    
-            <a href="#Quick-Bites">Quick Bites</a>    
-            <a href="#Maggie">Maggie</a>    
+            <button onclick="navigateTo('Coffee')">Coffee</button>
+            <button onclick="navigateTo('Iced')">Iced</button>
+            <button onclick="navigateTo('SpMentions')">Sp Mentions</button>
+            <button onclick="navigateTo('Tea')">Tea</button>
+            <button onclick="navigateTo('Shakes')">Shakes</button>
+            <button onclick="navigateTo('Mojitos')">Mojitos</button>
+            <button onclick="navigateTo('staters')">Staters</button>
+            <button onclick="navigateTo('Breads')">Breads</button>
+            <button onclick="navigateTo('Burgers')">Burgers</button>
+            <button onclick="navigateTo('Sandwiches')">Sandwiches</button>
+            <button onclick="navigateTo('Wraps')">Wraps</button>
+            <button onclick="navigateTo('Pizza')">Pizza</button>
+            <button onclick="navigateTo('Deserts')">Deserts</button>
+            <button onclick="navigateTo('Pastry')">Pastry</button>    
+            <button onclick="navigateTo('Snacks')">Snacks</button>    
+            <button onclick="navigateTo('Pasta')">Pasta</button>    
+            <button onclick="navigateTo('Quick-Bites')">Quick Bites</button>    
+            <button onclick="navigateTo('Maggie')">Maggie</button>    
             
         </div>
 
         <!-- Coffee Section -->
         <div id="Coffee" class="category-section">
             <h2 class="category-title" style="padding-top: 0px;">Coffee</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Coffee small.jpeg" alt="Coffee small">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Coffee Small</p>
-                    <!-- <p class="menu-item-description">Strong and bold Coffee shot.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Coffee large.jpeg" alt="Coffee Large">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Coffee Large</p>
-                    <!-- <p class="menu-item-description">A large cup of classic coffee.</p> -->
-                    <p class="menu-item-price">50/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Dolgona Coffee.webp" alt="Dolgona Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Dolgona Coffee</p>
-                    <!-- <p class="menu-item-description">Creamy whipped coffee served over milk.</p> -->
-                    <p class="menu-item-price">90/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Choclate Milk.jpeg" alt="Choclate Milk">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Choclate Milk</p>
-                    <!-- <p class="menu-item-description">Smooth milk blended with rich chocolate.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Notella Coffee.jpeg" alt="Notella Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Notella Coffee</p>
-                    <!-- <p class="menu-item-description">Coffee infused with rich Nutella flavor.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Coffee Brew.jpeg" alt="Coffee Brew">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Coffee Brew</p>
-                    <!-- <p class="menu-item-description">Freshly brewed, bold-flavored coffee.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Cold Coffee.jpeg" alt="Cold Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cold Coffee</p>
-                    <!-- <p class="menu-item-description">Chilled coffee served over ice.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Caramel Choclate Coffee.jpeg" alt="Caramel Choclate Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Caramel Choclate Coffee</p>
-                    <!-- <p class="menu-item-description">Coffee with a mix of caramel and chocolate flavors.
-                    </p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Honey Lemon Ginger Brew.jpeg" alt="Honey Lemon Ginger Brew">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Honey Lemon Ginger Brew</p>
-                    <!-- <p class="menu-item-description">A warm brew with honey, lemon, and ginger.</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Caramel Cold Coffee.jpg" alt="Caramel Cold Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Caramel Cold Coffee</p>
-                    <!-- <p class="menu-item-description">Iced coffee with a smooth caramel flavor.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div> 
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Cold Coffee with Ice Cream.jpeg" alt="Cold Coffee with Ice Cream">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cold Coffee with Ice Cream</p>
-                    <!-- <p class="menu-item-description">Chilled coffee topped with a scoop of ice cream.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Coffee/Cappuccino Coffee.jpeg" alt="Cappuccino Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cappuccino Coffee</p>
-                    <!-- <p class="menu-item-description">Espresso with steamed milk and a thick foam layer.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Coffee", Coffee) </script>
         </div>
 
         <!-- Iced Section -->
         <div id="Iced" class="category-section">
             <h2 class="category-title">Iced</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Chocolate.jpeg" alt="Iced Chocolate">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Chocolate Coffee</p>
-                    <!-- <p class="menu-item-description">Chilled coffee blended with rich chocolate</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Coffee.jpeg" alt="Iced Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Coffee</p>
-                    <!-- <p class="menu-item-description">Refreshing cold coffee served over ice</p> -->
-                    <p class="menu-item-price">90/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Nutella Coffee.jpeg" alt="Iced Nutella Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Nutella Coffee</p>
-                    <!-- <p class="menu-item-description">Cold coffee with a Nutella twist</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Caramel Coffee.jpeg" alt="Iced Caramel Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Caramel Coffee</p>
-                    <!-- <p class="menu-item-description"> Iced coffee flavored with smooth caramel</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Chocolate Milk.jpeg" alt="Iced Chocolate Milk">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Chocolate Milk</p>
-                    <!-- <p class="menu-item-description">Chilled milk mixed with chocolate</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Coffee Brew.jpeg" alt="Iced Coffee Brew">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Coffee Brew</p>
-                    <!-- <p class="menu-item-description">Cold brew coffee served over ice</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Iced Expresso.jpeg" alt="Iced Expresso">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Iced Expresso</p>
-                    <!-- <p class="menu-item-description">Strong, chilled espresso served on ice</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Cold Brew.jpeg" alt="Cold Brew">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Clod Brew</p>
-                    <!-- <p class="menu-item-description"> Smooth, slow-brewed coffee served cold</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Iced/Honey Iced Coffee.jpeg" alt="Honey Iced Coffee">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Honey Iced Coffee</p>
-                    <!-- <p class="menu-item-description">Cold coffee sweetened with honey</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
+            <script>displayCategory("Iced", Iced)</script>
         </div>
 
         <!--Sp Mentions-->
         <div id="SpMentions" class="category-section">
             <h2 class="category-title">Sp Mentions</h2>
-                <div class="menu-item">
-                    <img src="./assets/imgs/Sp Mentions/Brownie Shake.jpeg" alt="Brownie Shake">
-                    <div class="menu-item-details">
-                        <p class="menu-item-name">Brownie Shake</p>
-                        <!-- <p class="menu-item-description">A creamy shake blended with rich brownie pieces</p> -->
-                        <p class="menu-item-price">169/-</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="./assets/imgs/Sp Mentions/Brownie Shake Cold Coffee with Ice Cream.jpeg" alt="Brownie Shake Cold Coffee with Ice Cream">
-                    <div class="menu-item-details">
-                        <p class="menu-item-name">Brownie Shake Cold Coffee with Ice Cream</p>
-                        <!-- <p class="menu-item-description">Cold coffee blended with brownie and topped with ice cream</p> -->
-                        <p class="menu-item-price">179/-</p>
-                    </div>
-                </div>
+            <script> displayCategory("SpMentions", SpMentions)</script>
         </div>
 
         <!-- Tea Section -->
         <div id="Tea" class="category-section">
             <h2 class="category-title">Tea</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Tea.jpeg" alt="Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Tea</p>
-                    <!-- <p class="menu-item-description">Rich and moist chocolate cake.</p> -->
-                    <p class="menu-item-price">25/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Honey Lemon Tea.jpeg" alt="Honey Lemon Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Honey Lemon Tea</p>
-                    <!-- <p class="menu-item-description">Creamy cheesecake with graham crust.</p> -->
-                    <p class="menu-item-price">20/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Ginger Lemon Tea.jpeg" alt="Ginger Lemon Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Ginger Lemon Tea</p>
-                    <!-- <p class="menu-item-description">Fudgy brownie topped with chocolate.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Green Tea.jpeg" alt="Green Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Green Tea</p>
-                    <!-- <p class="menu-item-description">Classic vanilla or chocolate ice cream.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Badam Tea.jpeg" alt="Badam Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Badam Tea</p>
-                    <!-- <p class="menu-item-description">Delicious fruit tart with pastry crust.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Masala Tea.jpeg" alt="Masala Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Masala Tea</p>
-                    <!-- <p class="menu-item-description">Creamy Italian dessert.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Sonty Tea.jpeg" alt="Sonty Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Sonty Tea</p>
-                    <!-- <p class="menu-item-description">Fluffy cupcake with icing.</p> -->
-                    <p class="menu-item-price">30/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Ginger Tea.jpeg" alt="Ginger Tea">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Ginger Tea</p>
-                    <!-- <p class="menu-item-description">Classic Italian coffee dessert.</p> -->
-                    <p class="menu-item-price">35/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Boost.jpeg" alt="Boost">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Boost</p>
-                    <!-- <p class="menu-item-description">Colorful French macarons.</p> -->
-                    <p class="menu-item-price">Large: 59/-&emsp; Small: 39/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Tea/Horlics.jpeg" alt="Horlics">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Horlics</p>
-                    <!-- <p class="menu-item-description">Colorful French macarons.</p> -->
-                    <p class="menu-item-price">Large: 59/- &emsp; Small: 39/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Tea", Tea) </script>
         </div>
 
         <!-- Shakes Section -->
         <div id="Shakes" class="category-section">
             <h2 class="category-title">Shakes</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Vinila.jpeg" alt="Vinila">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">vinila</p>
-                    <!-- <p class="menu-item-description">Fluffy pancakes with syrup.</p> -->
-                    <p class="menu-item-price">Milk :139/- &emsp; Thick :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Strawberry.jpeg" alt="Strawberry">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Strawberry</p>
-                    <!-- <p class="menu-item-description">Egg omelette with vegetables.</p> -->
-                    <p class="menu-item-price">Milk :139/- &emsp; Thick :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Mango.jpeg" alt="Mango">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Mango</p>
-                    <!-- <p class="menu-item-description">Mixed fruit bowl.</p> -->
-                    <p class="menu-item-price">Milk :139/- &emsp; Thick :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-
-                <img src="./assets/imgs/Shakes/Oreo.jpeg" alt="Oreo">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Oreo</p>
-                    <!-- <p class="menu-item-description">Burrito filled with eggs and cheese.</p> -->
-                    <p class="menu-item-price">Milk :149/- &emsp; Thick :179/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Kitkat.jpeg" alt="Kitkat">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Kitkat</p>
-                    <!-- <p class="menu-item-description">Healthy granola with yogurt.</p> -->
-                    <p class="menu-item-price">Milk :159/- &emsp; Thick :189/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Chocolate.jpeg" alt="Chocolate">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chocolate</p>
-                    <!-- <p class="menu-item-description">Toasted bagel with cream cheese.</p> -->
-                    <p class="menu-item-price">Milk :149/- &emsp; Thick :169/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Ferrero Rocher.jpeg" alt="Ferrero Rocher">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Ferrero Rocher</p>
-                    <!-- <p class="menu-item-description">Avocado spread on toast.</p> -->
-                    <p class="menu-item-price">Milk :159/- &emsp; Thick :199/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Belgian Chocolate.jpeg" alt="Belgian Chocolate">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Belgian Chocolate</p>
-                    <!-- <p class="menu-item-description">Egg and cheese sandwich.</p> -->
-                    <p class="menu-item-price">Milk :149/- &emsp; Thick :169/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Shakes/Triple Choco Bar.jpeg" alt="Triple Choco Bar">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Triple Choco Bar</p>
-                    <!-- <p class="menu-item-description">Healthy chia seed pudding.</p> -->
-                    <p class="menu-item-price">Milk:149/- &emsp; Thick :169/-</p>
-                </div>
-            </div>
+            <script> 
+                displayCategory("Shakes", Shakes)
+            </script>
         </div>
 
         <!-- Mojitos Section -->
         <div id="Mojitos" class="category-section">
             <h2 class="category-title">Mojitos</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Mint Mojito.jpeg" alt="Mint Mojito">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Mint Mojito</p>
-                    <!-- <p class="menu-item-description">Juicy beef burger with toppings.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Lemon Mint.jpeg" alt="Lemon Mint">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Lemon Mint</p>
-                    <!-- <p class="menu-item-description">Pasta with marinara sauce.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Green Apple.jpeg" alt="Green Apple">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Green Apple</p>
-                    <!-- <p class="menu-item-description">Fresh garden salad.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Blue Sparkle.jpeg" alt="Blue Sparkle">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Blue Sparkle</p>
-                    <!-- <p class="menu-item-description">Assorted sushi rolls.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Black Current.jpeg" alt="Black Current">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Black Current</p>
-                    <!-- <p class="menu-item-description">Grilled chicken wrap.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Pineapple.jpeg" alt="Pineapple">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Pineapple</p>
-                    <!-- <p class="menu-item-description">Delicious vegetable curry.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Bubble Gum.jpeg" alt="Bubble Gum">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Bubble Gum</p>
-                    <!-- <p class="menu-item-description">Fried rice with vegetables.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Cran berry.jpeg" alt="Cran berry">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cran berry</p>
-                    <!-- <p class="menu-item-description">Cheesy quesadilla with salsa.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Mojitos/Rose.jpeg" alt="Rose">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Rose</p>
-                    <!-- <p class="menu-item-description">Soft taco with chicken.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
+            <script>
+                displayCategory("Mojitos", Mojitos)
+            </script>
         </div>
 
         <!-- Staters Section -->
         <div id="staters" class="category-section">
             <h2 class="category-title">Staters</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Staters/Chicken Strips.jpeg" alt="Chicken Strips">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Strips</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Staters/Chicken Popcorn.jpeg" alt="Chicken Popcorn">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Popcorn</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Staters/Chicken Leg Pices.jpeg" alt="Chicken Leg Pices">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Leg Pices</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">199/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Staters/Chicken Nuggets.jpeg" alt="Chicken Nuggets">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Nuggets</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
+            <script> displayCategory("staters", staters)</script>
         </div>
 
         <!-- Bread Section -->
         <div id="Breads" class="category-section">
             <h2 class="category-title">Breads</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Breads/Garlic Bread.jpeg" alt="Garlic Bread">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Garlic Bread</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Breads/Bread Amlet.jpeg" alt="Bread Amlet">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Bread Amlet</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">120/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Breads/Cheese Snack Bread.jpeg" alt="Cheese Snack Bread">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Snack Bread</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Breads/French TOast.jpeg" alt="French TOast">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">French Toast</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Breads", Breads) </script>
         </div>
 
 
         <!-- Burgers Section -->
         <div id="Burgers" class="category-section">
             <h2 class="category-title">Burgers</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Burgers/Shuffled Burgers.jpeg" alt="Shuffled Burgers">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Shuffled Burgers</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Burgers/Egg Burgers.jpeg" alt="Egg Burgers">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Egg Burgers</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Burgers/Chicken Burger.jpeg" alt="Chicken Burger">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Burger</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Burgers/Chicken Cheese Burger.jpeg" alt="Chicken Cheese Burger">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Cheese Burger</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Burgers", Burgers) </script>
         </div>
 
 
         <!-- Sandwiches Section -->
         <div id="Sandwiches" class="category-section">
             <h2 class="category-title">Sandwiches</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Shuffled Cheese Sandwich.jpeg" alt="Shuffled Cheese Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Shuffled Cheese Sandwich</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Sweet Corn Sandwich.jpeg" alt="Sweet Corn Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Sweet Corn Sandwich</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Chicken Cheese Sandwich.jpeg" alt="Chicken Cheese Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Cheese Sandwich</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Egg Sandwich.jpeg" alt="Egg Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Egg Sandwich</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Panner Sandwich.jpeg" alt="Panner Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Panner Sandwich</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Sandwiches/Panner Cheese Sandwich.jpeg" alt="Panner Cheese Sandwich">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Panner Cheese Sandwich</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Sandwiches", Sandwiches) </script>
         </div>
 
 
         <!-- Wraps Section -->
         <div id="Wraps" class="category-section">
             <h2 class="category-title">Wraps</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Stuffed Wrap.jpeg" alt="Stuffed Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Stuffed Wrap</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Paneer Wrap.jpeg" alt="Paneer Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Paneer Wrap</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Pizza Wrap.jpeg" alt="Pizza Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Pizza Wrap</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Sweet Corn Wrap.jpeg" alt="Sweet Corn Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Sweet Corn Wrap</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Chicken Wrap.jpeg" alt="Chicken Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Wrap</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Wraps/Egg Wrap.jpeg" alt="Egg Wrap">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Egg Wrap</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Wraps", Wraps) </script>
         </div>
 
 
         <!-- Pizza Section -->
         <div id="Pizza" class="category-section">
             <h2 class="category-title">Pizza</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Veg Pizza.jpeg" alt="Veg Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Veg Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :149/- &emsp; Large :190/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Paneer Pizza.jpeg" alt="Paneer Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Paneer Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :169/- &emsp; Large :240/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Baby Corn Pizza.jpeg" alt="Baby Corn Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Baby Corn Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :169/- &emsp; Large :240/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Chicken Pizza.jpeg" alt="Chicken Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chicken Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :219/- &emsp; Large :280/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Cheese Brust Veg Pizza.jpeg" alt="Cheese Brust Veg Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Brust Veg Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :169/- &emsp; Large :240/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Cheese Brust Chicken Pizza.jpeg" alt="Cheese Brust Chicken Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Brust Chicken Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :249/- &emsp; Large :320/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Cheese Paneer Pizza.jpeg" alt="Cheese Paneer Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Paneer Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :199/- &emsp; Large :270/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pizzas/Cheese Baby Corn Pizza.jpeg" alt="Cheese Baby Corn Pizza">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Baby Corn Pizza</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">Small :199/- &emsp; Large :270/-</p>
-                </div>
-            </div>
+            
+            <script> displayCategory("Pizza", Pizza) </script>
             
         </div>
 
         <!-- Deserts Section -->
         <div id="Deserts" class="category-section">
             <h2 class="category-title">Deserts</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Deserts/Walnut Browine.jpeg" alt="Walnut Browine">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Walnut Browine</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Deserts/Browine With Ice Cream.jpeg" alt="Browine With Ice Cream">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Browine With Ice Cream</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Deserts/Chocolate Mouse.jpeg" alt="Chocolate Mouse">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chocolate Mouse</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Deserts/Oreo Mouse.jpeg" alt="Oreo Mouse">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Oreo Mouse</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Deserts", Deserts) </script>
         </div>
 
         <!-- Pastry Section -->
         <div id="Pastry" class="category-section">
             <h2 class="category-title">Pastry</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Red Velvet.jpeg" alt="Red Velvet">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Red Velvet</p>
-                    <!-- <p class="menu-item-description">Grilled steak with herbs.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Cassata.jpeg" alt="Cassata">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cassata</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Pista.jpeg" alt="Pista">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Pista</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Black Forest.jpeg" alt="Black Forest">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Black Forest</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Chocolate.jpeg" alt="Chocolate">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chocolate</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Belgium.jpeg" alt="Belgium">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Belgium</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pastry/Honey Almond.jpeg" alt="Honey Almond">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Honey Almond</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">99/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Pastry", Pastry) </script>
         </div>
 
         <!-- Snacks Section -->
         <div id="Snacks" class="category-section">
             <h2 class="category-title">Snacks</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Veg Fingers.jpeg" alt="Veg Fingers">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Veg Fingers</p>
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Chilli Garlic Pops.jpeg" alt="Chilli Garlic Pops">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chilli Garlic Pops</p>
-                    <!-- <p class="menu-item-description">Assorted seafood platter.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Potato Wedges.jpeg" alt="Potato Wedges">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Potato Wedges</p>
-                    <!-- <p class="menu-item-description">Herb-roasted chicken.</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Smileys.jpeg" alt="Smileys">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Smileys</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Aloo Tikki.jpeg" alt="Aloo Tikki">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Aloo Tikki</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Snacks/Veg Nuggets.jpeg" alt="Veg Nuggets">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Veg Nuggets</p>
-                    <!-- <p class="menu-item-description">Mixed vegetable stir fry.</p> -->
-                    <p class="menu-item-price">109/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Snacks", Snacks) </script>
         </div>
 
         <!-- Pasta Section -->
         <div id="Pasta" class="category-section">
             <h2 class="category-title">Pasta</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pasta/white Sause Pasta.jpeg" alt="white Sause Pasta">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">white Sause Pasta</p>
-                    <p class="menu-item-price">Veg :119/- <br> Chicken :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pasta/Cream Pasta.jpeg" alt="Cream Pasta">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cream Pasta</p>
-                    <p class="menu-item-price">Veg :129/- <br> Chicken :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pasta/Peri Peri Pasta.jpeg" alt="Peri Peri Pasta">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Peri Peri Pasta</p>
-                    <p class="menu-item-price">Veg :119/- <br> Chicken :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pasta/Masala Pasta.jpeg" alt="Masala Pasta">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Masala Pasta</p>
-                    <p class="menu-item-price">Veg :129/- <br> Chicken :159/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Pasta/Red Sauce Pasta.jpeg" alt="Red Sauce Pasta">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Red Sauce Pasta</p>
-                    <p class="menu-item-price">Veg :129/- <br> Chicken :159/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Pasta", Pasta) </script>
 
         </div>
 
         <!-- Quick Bites Section -->
         <div id="Quick-Bites" class="category-section">
             <h2 class="category-title">Quick Bites</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Chezwan Fries.jpeg" alt="Chezwan Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Chezwan Fries</p>
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Masala Fries.jpeg" alt="Masala Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Masala Fries</p>
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Peri Peri Fries.jpeg" alt="Peri Peri Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Peri Peri Fries</p>
-                    <p class="menu-item-price">139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Peri Peri Cheez Fries.jpeg" alt="Peri Peri Cheez Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Peri Peri Cheez Fries</p>
-                    <p class="menu-item-price">149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Salty Fries.jpeg" alt="Salty Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Salty Fries</p>
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Potato Tomado.jpeg" alt="Potato Tomado">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Potato Tomado</p>
-                    <p class="menu-item-price">129/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Plain Fries.jpeg" alt="Plain Fries">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Plain Fries</p>
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Quick Bites/Veg Nuggets.jpeg" alt="Veg Nuggets">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Veg Nuggets</p>
-                    <p class="menu-item-price">119/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Quick-Bites", QuickBites) </script>
             
 
         </div>
@@ -1023,49 +159,44 @@
          <!-- Maggie Section -->
          <div id="Maggie" class="category-section">
             <h2 class="category-title">Maggie</h2>
-            <div class="menu-item">
-                <img src="./assets/imgs/Maggi/Stuffed Maggie.jpeg" alt="Stuffed Maggie">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Stuffed Maggie</p>
-                    <p class="menu-item-price">Veg :109/- <br>Egg :129/- <br> Chicken :139/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Maggi/Garlic Maggie.jpeg" alt="Garlic Maggie">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Garlic Maggie</p>
-                    <p class="menu-item-price">Veg :119/- <br>Egg :139/- <br> Chicken :149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Maggi/White Cream Maggie.jpeg" alt="White Cream Maggie">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">White Cream Maggie</p>
-                    <p class="menu-item-price">Veg :109/- <br>Egg :139/- <br> Chicken :149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Maggi/Masala Maggie.jpeg" alt="Masala Maggie">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Masala Maggie</p>
-                    <p class="menu-item-price">Veg :119/- <br>Egg :139/- <br> Chicken :149/-</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="./assets/imgs/Maggi/Cheese Maggie.jpeg" alt="Cheese Maggie">
-                <div class="menu-item-details">
-                    <p class="menu-item-name">Cheese Maggie</p>
-                    <p class="menu-item-price">Veg :129/- <br>Egg :139/- <br> Chicken :149/-</p>
-                </div>
-            </div>
+            <script> displayCategory("Maggie", Maggie) </script>
         </div>
+
+        <div id="newcat">
+
+        </div>
+
 
     </main>
 
+
+    <div id="cart">
+        <div style="display: flex; justify-content: space-between;">
+            <h1>cart</h1>
+            <input type="button" onclick="clearCart()" value="clear cart">
+        </div>
+        <div id="cart-items">
+
+        </div>
+
+    </div>
+
     <footer>
         <p>©ZEST. All rights reserved.</p>
-        <p>HEMANTH &emsp;   ROHITH</p>
+        <p>HEMANTH &emsp;   ROHITH &emsp;  </p>
+        <p>ANAND</p>
     </footer>
+
+    <div onclick="navigateTo('cart')" id="go-to-cart" >
+        <img src="./assets/icons/carticon.png" alt="">
+    </div>
+
+    <script>
+        if(!localStorage.getItem('cartItems')){
+            localStorage.setItem("cartItems", "[]");
+        }
+        loadCart()
+    </script>
 </body>
 
 </html>
